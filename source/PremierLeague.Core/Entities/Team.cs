@@ -17,7 +17,8 @@ namespace PremierLeague.Core.Entities
 
         public override string ToString()
         {
-            return $"{Name}";
+            return $"Name: {Name}";
+            //return $"Name: {Name}";
         }
     }
 }
